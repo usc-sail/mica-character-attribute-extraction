@@ -15,8 +15,8 @@ import tqdm
 
 # cache_dir is the directory where successfully retrieved webpages are cached
 # movie_scripts_dir is the directory where movie scripts (pdfs and texts) are saved, along with their index
-cache_dir = os.path.join(os.getenv("DATA_DIR"), "mica_narrative_understanding/data/scrape")
-movie_scripts_dir = os.path.join(os.getenv("DATA_DIR"), "mica_narrative_understanding/data/movie_scripts")
+cache_dir = os.path.join(os.getenv("DATA_DIR"), "narrative_understanding/movie_scripts/scrape")
+movie_scripts_dir = os.path.join(os.getenv("DATA_DIR"), "narrative_understanding/movie_scripts/movie_scripts")
 
 # define command-line flags
 # --cache to specify a different cache_dir
