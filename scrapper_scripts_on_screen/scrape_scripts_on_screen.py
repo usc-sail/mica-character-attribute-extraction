@@ -1,6 +1,6 @@
 """Scrape movie scripts from scripts on screen website"""
 
-from narrative_understanding.cache import GetPage
+from narrative_understanding.scrapper_scripts_on_screen.cache import GetPage
 
 import pandas as pd
 import requests
@@ -25,6 +25,8 @@ FLAGS = flags.FLAGS
 flags.DEFINE_string("cache", default=cache_dir, help="Cache for scraped webpages.")
 flags.DEFINE_string("movie_scripts_dir", default=movie_scripts_dir, help="Movie Scripts directory.")
 flags.DEFINE_bool("retry", default=False, help="Retry url even if past requests to the url has failed.")
+flags.DEFINE_bool("check_for_updates", default=False, help="Check for new script updates on scripts-on-screen website "
+                  "(Requests the scripts-on-screen index and movie category pages again even if they are cached)")
 flags.DEFINE_integer("timeout", default=60, help="Timeout in seconds for http(s) requests")
 
 
@@ -103,7 +105,7 @@ def get_movie_script(url: str, getpage: GetPage, retry: bool) -> str | None:
                     if pdf_url.endswith("pdf") or pdf_url.endswith("PDF"):
                         return pdf_url
         
-        # imsdb html script dailyscript html script, screenplays for you
+        # imsdb html script, dailyscript html script, screenplays for you
         elif re.search(r"((imsdb)|(dailyscript)|(horrorlair))\.com.*\.html?$", url) or (
                 re.search("sfy.ru", url) is not None):
             preformatted_element = soup.find("pre")
@@ -127,6 +129,7 @@ def scrape_scripts_on_screen(_):
     movie_scripts_dir = FLAGS.movie_scripts_dir
     timeout = FLAGS.timeout
     retry = FLAGS.retry
+    update = FLAGS.check_for_updates
 
     # initialize GetPage object to retrieve, parse, and cache webpages
     getpage = GetPage(cache_dir, timeout=timeout)
@@ -148,7 +151,7 @@ def scrape_scripts_on_screen(_):
     print("retrieved Scripts on Screen movie link category pages\n")
 
     # get the movie pages
-    movie_pages = getpage(*movie_links, retry_error_url=retry)
+    movie_pages = getpage(*movie_links, retry_error_url=retry, update_cache=update)
     print(f"retrieved {len(movie_pages)} movie pages\n")
 
     # populate the movie scripts index with existing entries

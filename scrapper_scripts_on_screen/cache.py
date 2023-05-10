@@ -21,7 +21,7 @@ class GetPage(object):
         self._timeout = timeout
         if self._cache_dir is not None:
             # self._cache is mapping from url (str) to tuple of filename (int) and date accessed (str).
-            # self._error_urls is the set of urls that getpage tried requesting in the part but ended in an error.
+            # self._error_urls is the set of urls that getpage tried requesting in the past but ended in an error.
             # self._next_file is the integer filename of the next webpage that will be cached.
             # self._date_accessed is the current date in string format. This is the date assigned to new cached
             # webpages.
@@ -49,7 +49,15 @@ class GetPage(object):
                     for line in fr:
                         self._error_urls.add(line.strip())
 
-    def __call__(self, *urls, retry_error_url=False, disable_progress_bar=False) -> (
+    def _request_page(self, url) -> bytes | None:
+        try:
+            response = requests.get(url=url, timeout=self._timeout)
+            if response.status_code == 200:
+                return response.content
+        except Exception:
+            return
+
+    def __call__(self, *urls, retry_error_url=False, update_cache=False, disable_progress_bar=False) -> (
             dict[str, bs4.BeautifulSoup] | bs4.BeautifulSoup | None):
         """Retrieve webpages for the given urls and parse them using beautifulsoup.
 
@@ -57,6 +65,7 @@ class GetPage(object):
             urls : Webpage urls.
             retry_error_url : Retry requesting the url even if it was already requested in the past which ended in an
                 error.
+            update_cache : Request url again even if it is cached. Done to retrieve the latest url page.
             disable_progress_bar : Disable progress bar. Automatically disabled for a single url.
         
         Returns:
@@ -69,23 +78,34 @@ class GetPage(object):
             if not isinstance(urlbar, tuple):
                 urlbar.set_description(f"{url:100s}")
             if self._cache_dir is not None and url in self._cache:
-                    with open(os.path.join(self._cache_dir, str(self._cache[url][0])), "rb") as fr:
-                        pages[url] = bs4.BeautifulSoup(fr.read(), "html.parser")
-            elif self._cache_dir is None or retry_error_url or url not in self._error_urls:
-                try:
-                    response = requests.get(url, "html.parser", timeout=self._timeout)
-                    if response.status_code == 200:
-                        pages[url] = bs4.BeautifulSoup(response.content, "html.parser")
-                        if self._cache_dir is not None:
-                            with open(os.path.join(self._cache_dir, str(self._next_file)), "wb") as fw:
-                                fw.write(response.content)
-                            self._cache[url] = (self._next_file, self._date_accessed)
-                            self._next_file += 1
-                    else:
-                        if self._cache_dir is not None:
+                    url_file = str(self._cache[url][0])
+                    if update_cache:
+                        markup = self._request_page(url)
+                        if markup is not None:
+                            pages[url] = bs4.BeautifulSoup(markup, "html.parser")
+                            with open(os.path.join(self._cache_dir, url_file), "wb") as fw:
+                                fw.write(markup)
+                            self._cache[url] = (url_file, self._date_accessed)
+                        else:
+                            self._cache.pop(url)
+                            os.remove(os.path.join(self._cache_dir, url_file))
                             self._error_urls.add(url)
-                except Exception:
-                    self._error_urls.add(url)
+                    else:
+                        with open(os.path.join(self._cache_dir, url_file), "rb") as fr:
+                            pages[url] = bs4.BeautifulSoup(fr.read(), "html.parser")
+            elif self._cache_dir is None or retry_error_url or url not in self._error_urls:
+                markup = self._request_page(url)
+                if markup is not None:
+                    pages[url] = bs4.BeautifulSoup(markup, "html.parser")
+                    if self._cache_dir is not None:
+                        with open(os.path.join(self._cache_dir, str(self._next_file)), "wb") as fw:
+                            fw.write(markup)
+                        self._cache[url] = (self._next_file, self._date_accessed)
+                        self._error_urls.discard(url)
+                        self._next_file += 1
+                else:
+                    if self._cache_dir is not None:
+                        self._error_urls.add(url)
         if len(urls) > 10:
             self.write_index()
         if len(urls) == 1:
@@ -104,6 +124,7 @@ class GetPage(object):
             df = pd.DataFrame(rows, columns=["file", "url", "date"])
             df.to_csv(self._cache_index_file, index=False)
             with open(self._error_urls_file, "w") as fw:
+                self._error_urls = set(filter(lambda url: len(url.strip()) > 0, self._error_urls))
                 fw.write("\n".join(sorted(self._error_urls)))
 
     def __del__(self):
