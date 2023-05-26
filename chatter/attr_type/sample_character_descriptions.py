@@ -1,4 +1,4 @@
-# Sample character descriptions
+# Sample character descriptions for finding attribute types
 
 import os
 import json
@@ -15,7 +15,7 @@ data_dir = os.path.join(os.getenv("DATA_DIR"), "narrative_understanding/chatter"
 flags.DEFINE_string("scripts_dir", default=os.path.join(data_dir, "scripts"), help="scripts directory")
 flags.DEFINE_integer("n", default=500, help="number of character descriptions")
 flags.DEFINE_integer("k", default=3, help="number of characters to consider for each movie from the imdb cast list")
-flags.DEFINE_string("output_file", default=os.path.join(data_dir, "character_descriptions.json"), 
+flags.DEFINE_string("output_file", default=os.path.join(data_dir, "attr_types/character_descriptions.json"), 
                     help="json file for character descriptions")
 
 def sample_character_descriptions(_):
