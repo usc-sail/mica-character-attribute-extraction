@@ -14,10 +14,10 @@ from absl import flags
 FLAGS = flags.FLAGS
 flags.DEFINE_integer("gpu_id", default=0, help="GPU id")
 flags.DEFINE_integer("batch_size", default=32, help="batch size for inference")
-flags.DEFINE_string("hypothesis_template", default="This text describes or mentions CHARACTER's ATTRIBUTE", 
-                    help="hypothesis template for nli. CHARACTER and ATTRIBUTE will be replaced by specific values")
 flags.DEFINE_integer("sample", default=None, 
                      help="run inference on a sample. If sample is None, run inference on all character descriptions")
+flags.DEFINE_string("hypothesis_template", default="This text describes or mentions CHARACTER's ATTRIBUTE", 
+                    help="hypothesis template for nli. CHARACTER and ATTRIBUTE will be replaced by specific values")
 
 def bart_mnli(_):
     # read character descriptions
