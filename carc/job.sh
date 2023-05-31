@@ -9,7 +9,7 @@
 #SBATCH --account=shrikann_35
 
 source ~/.bashrc
-conda activate /home1/sbaruah/.conda/envs/coreference
-cd /home1/sbaruah/mica_text_coref
+conda activate /home1/sbaruah/.conda/envs/story
+cd /home1/sbaruah/narrative_understanding
 
 bash $@
