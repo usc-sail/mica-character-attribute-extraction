@@ -12,10 +12,6 @@
 source ~/.bashrc
 eval "$(conda shell.bash hook)"
 conda activate /home1/sbaruah/.conda/envs/story
-cd /home1/sbaruah/narrative_understanding/chatter
+cd /home1/sbaruah/narrative_understanding/chatter/attr_verify
 
-size=51000
-start_id=$(( $size * $1 ))
-end_id=$(( $start_id + $size ))
-echo $start_id $end_id
-python flan_t5_attr_verify.py --batch_size=48 --start_id=$start_id --end_id=$end_id --gpu_id=0 --t5_model_size=xxl
+python flan_t5_attr_verify.py --batch_size=48 --split_id=$1 --n_data_splits=$2 --gpu_id=0 --t5_model_size=xxl
