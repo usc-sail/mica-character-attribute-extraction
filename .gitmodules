@@ -1,4 +1,0 @@
-[submodule "similar_movie_characters"]
-	path = similar_movie_characters
-	url = https://github.com/Zhilin123/similar_movie_characters
-	branch = main
