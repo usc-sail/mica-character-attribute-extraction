@@ -1,4 +1,40 @@
-"""Sample (segment/scene, attribute, character) tuples for LLM-annotation"""
+"""Sample (segment/scene, attribute, character) tuples for LLM-annotation
+
+Input
+    - segment descriptions csv file
+        - path = mica-character-attribute-extraction/implicitness/segment_descriptions.csv
+        - contains imdb id, segment id, segment description text, and character name
+        - segment id is the location of the segment in the movie script
+        - created by mica-character-attribute-extraction/implicitness/create_segment_descriptions.py
+    - scene descriptions csv file
+        - path = mica-character-attribute-extraction/implicitness/scene_descriptions.csv
+        - contains imdb id, scene id, scene description text, and character name
+        - scene id is the location of the scene in the movie script
+        - created by mica-character-attribute-extraction/implicitness/create_scene_descriptions.py
+    - flan t5 csv files
+        - path = mica-character-attribute-extraction/implicitness/flan_t5/*
+        - contains id, attribute-type, answer, answer token id, answer probability (implicitness) fields
+        - id here is the dataframe index of the scene/segment description; you can distinguish between scene or segment
+            according to attribute-type ("goal" means scene, otherwise segment)
+        - created by mica-character-attribute-extraction/implicitness/flan_t5_attr_verify.py
+    - demonstrations csv file
+        - path = mica-character-attribute-extraction/prompts/samples.csv
+        - contains id, passage, character, attribute-type, implicitness
+        - id here is the dataframe index, same as the id in flan t5 csv file
+        - this file is only used to prevent demonstrations from appearing as samples to be annotated
+        - created by mica-character-attribute-extraction/prompt-creation/sample_examples.py
+
+Output
+    - samples csv file
+        - path = mica-character-attribute-extraction/prompt-results/samples.csv
+        - contains attribute-type, id, imdb id, passage id, passage, character name, genres, answer probability
+        - id is the dataframe index in the scene/segment descriptions file
+        - passage id is the location of the passage (segment/scene) in the movie script
+
+You can change the number of samples in the output samples csv file by varying the number of bins of answer probability
+, genre x answer probability bins chosen, and samples per genre x probability bin
+Look at lines 90, 151 and 160
+"""
 
 import os
 import re
@@ -30,13 +66,13 @@ def sample_for_annotation():
     random.seed(0)
 
     # files and directories
-    data_dir = os.path.join(os.getenv("DATA_DIR"), "narrative_understanding/chatter")
-    segment_file = os.path.join(data_dir, "attr_verify/segment_descriptions.csv")
-    scene_file = os.path.join(data_dir, "attr_verify/scene_descriptions.csv")
-    flan_files = [os.path.join(data_dir, f"attr_verify/flan_t5_v1/flan_t5_{i}_of_16.csv") for i in range(16)]
-    demonstrations_file = os.path.join(data_dir, "attr_instr/samples.csv")
-    scripts_dir = os.path.join(data_dir, "scripts")
-    output_file = os.path.join(data_dir, "attr_annot/samples.csv")
+    data_dir = os.path.join(os.getenv("DATA_DIR"), "mica-character-attribute-extraction")
+    segment_file = os.path.join(data_dir, "implicitness/segment_descriptions.csv")
+    scene_file = os.path.join(data_dir, "implicitness/scene_descriptions.csv")
+    flan_files = [os.path.join(data_dir, f"implicitness/flan_t5/flan_t5_{i}_of_16.csv") for i in range(16)]
+    demonstrations_file = os.path.join(data_dir, "prompts/samples.csv")
+    scripts_dir = os.path.join(os.getenv("DATA_DIR"), "mica-movie-scripts/scriptsonscreen/scripts")
+    output_file = os.path.join(data_dir, "prompt-results/samples.csv")
 
     # read segments, scenes, and few-shot demonstrations
     print("reading segments and scenes ... ", flush=True, end="")

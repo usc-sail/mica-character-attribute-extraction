@@ -1,4 +1,20 @@
-# Prompt character descriptions for attribute types
+"""Prompt character descriptions for attribute types
+
+Input
+  - character descriptions json file
+      - path = mica-character-attribute-extraction/attribute-types/character_descriptions.json
+      - contains <imdb id, character name, character description> tuples
+      - created by sample_character_descriptions.py
+#
+Output
+  - character attribute types json file
+      - path = mica-character-attribute-extraction/attribute-types/character_attribute_types.json
+      - contains list of GPT completions
+
+Parameters
+  - n
+       number of character descriptions from the character descriptions json file to prompt
+"""
 
 import os
 import openai
@@ -11,12 +27,11 @@ from absl import flags
 from absl import app
 
 FLAGS = flags.FLAGS
-data_dir = os.path.join(os.getenv("DATA_DIR"), "narrative_understanding/chatter")
-flags.DEFINE_string("i", default=os.path.join(data_dir, "attr_types/character_descriptions.json"), 
-                    help="character descriptions json")
+data_dir = os.path.join(os.getenv("DATA_DIR"), "mica-character-attribute-extraction")
+input_file = os.path.join(data_dir, "attribute-types/character_descriptions.json")
+output_file = os.path.join(data_dir, "attribute-types/character_attribute_types.json")
+
 flags.DEFINE_integer("n", default=50, help="number of character descriptions to prompt")
-flags.DEFINE_string("o", default=os.path.join(data_dir, "attr_types/character_attribute_types.json"), 
-                    help="output character attribute types")
 
 template = """List the attribute types of <CHARACTER> described in <PASSAGE> as a comma-separated list. If the <PASSAGE> does not describe any attribute of <CHARACTER>, answer as NONE.
 
@@ -76,8 +91,6 @@ def prompt_sample(passage, character):
         return
 
 def prompt_attribute_types(_):
-    input_file = FLAGS.i
-    output_file = FLAGS.o
     n = FLAGS.n
     openai.api_key = os.getenv("OPENAI_API_KEY")
     openai.organization = "org-xPjDKPQ58le6x8A7CE13e8O6"

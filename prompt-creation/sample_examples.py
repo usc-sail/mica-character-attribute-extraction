@@ -1,4 +1,17 @@
-"""Sample examples for GPT-3.5 prompting to create the demonstrations."""
+"""Sample examples for GPT-3.5 prompting to create the demonstrations.
+
+Input
+    - flan csv files
+        contains implicitness values
+    - segment descriptions csv file
+    - scene descriptions csv file
+        all the above three files are created by scripts in the implicitness folder; refer to that for a more detailed
+            description
+
+Output
+    - samples csv file
+        path = mica-character-attribute-extraction/prompts/samples.csv
+"""
 
 import os
 import re
@@ -11,13 +24,13 @@ FLAGS = flags.FLAGS
 flags.DEFINE_integer("n", default=5, help="number of samples per attr per prob bin")
 
 def sample_examples(_):
-    data_dir = os.path.join(os.getenv("DATA_DIR"), "narrative_understanding/chatter")
-    flan_dir = os.path.join(data_dir, "attr_verify/flan_t5_v1")
+    data_dir = os.path.join(os.getenv("DATA_DIR"), "mica-character-attribute-extraction")
+    flan_dir = os.path.join(data_dir, "implicitness/flan_t5")
     flan_files = [os.path.join(flan_dir, f) for f in os.listdir(flan_dir) 
                                             if re.match(r"flan_t5_\d+_of_\d+\.csv", f) is not None]
-    segment_file = os.path.join(data_dir, "attr_verify/segment_descriptions.csv")
-    scene_file = os.path.join(data_dir, "attr_verify/scene_descriptions.csv")
-    output_file = os.path.join(data_dir, "attr_instr/samples.csv")
+    segment_file = os.path.join(data_dir, "implicitness/segment_descriptions.csv")
+    scene_file = os.path.join(data_dir, "implicitness/scene_descriptions.csv")
+    output_file = os.path.join(data_dir, "prompts/samples.csv")
     flan_df = pd.concat(pd.read_csv(f, index_col=None) for f in flan_files)
     flan_df["answer_prob_bin"] = np.floor(10*flan_df.answer_prob)/10
     segment_df = pd.read_csv(segment_file, index_col=None)

@@ -1,4 +1,28 @@
-"""Create segment descriptions for characters csv"""
+"""Create segment descriptions for characters. 
+Segment descriptions are short passages (20 - 200 words) containing the character name.
+
+Input
+    - movie scripts directory
+        path = mica-movie-scripts/scriptsonscreen/scripts
+    - professions csv file
+        - path = mica-character-attribute-extraction/professions/soc-mapped-expanded-taxonomy.csv
+        - contains list of job titles
+
+Output
+    - segment descriptions csv file
+        - path = mica-character-attribute-extraction/implicitness/segment_descriptions.csv
+        - contains imdb id, segment id, segment description text, and character name
+        - segment id is the position of the segment in the script
+
+Parameters
+(hard-coded; you will need to edit the code to change them)
+    - k
+        number of characters per movie
+    - min_w
+        minimum number of words in a segment description
+    - max_w
+        maximum number of words in a segment description
+"""
 
 import os
 import json
@@ -14,6 +38,11 @@ k = 5 ## top k characters from IMDB cast list
 min_w = 20 ## minimum number of words in prompt description
 max_w = 200 ## maximum number of words in prompt description
 
+# declare paths
+data_dir = os.path.join(os.getenv("DATA_DIR"), "mica-character-attribute-extraction")
+scripts_dir = os.path.join(os.getenv("DATA_DIR"), "mica-movie-scripts/scriptsonscreen/scripts")
+professions_file = os.path.join(data_dir, "professions/soc-mapped-expanded-taxonomy.csv")
+prompt_file = os.path.join(data_dir, "implicitness/segment_descriptions.csv")
 
 def is_valid_name(name: str, professions: set[str]) -> bool:
     """Return true if name refers to a specific named person"""
@@ -27,12 +56,6 @@ def is_valid_name(name: str, professions: set[str]) -> bool:
     if name.startswith("."):
         return False
     return True
-
-
-# declare paths
-data_dir = os.path.join(os.getenv("DATA_DIR"), "narrative_understanding/chatter")
-scripts_dir = os.path.join(data_dir, "scripts")
-professions_file = os.path.join(data_dir, "professions/soc-mapped-expanded-taxonomy.csv")
 
 # collect the imdb ids
 imdb_ids = os.listdir(scripts_dir)
@@ -146,5 +169,4 @@ for imdb_id in tqdm.tqdm(imdb_ids, unit="movie"):
 print(f"{len(prompt_tups)} (imdb_id, segment, character) tuples")
 prompt_df = pd.DataFrame(prompt_tups, columns=["imdb_id", "segment_id", "segment_text", "character"])
 
-prompt_file = os.path.join(data_dir, "segment_descriptions.csv")
 prompt_df.to_csv(prompt_file, index=False)

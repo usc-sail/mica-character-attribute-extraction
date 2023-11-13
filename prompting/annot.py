@@ -1,4 +1,19 @@
-"""Zero-shot annotate samples"""
+"""Prompt samples using zero-shot, few-shot, and chain-of-thought (CoT) prompting methods to find attribute-values
+
+Input
+    - samples csv file
+        - path = mica-character-attribute-extraction/prompt-results/samples.csv
+        - contains attribute-type, id, imdb id, passage id, passage, character name, genres, answer probability fields
+
+Output
+    - completions json file
+        path = mica-character-attribute-extraction/prompt-results/{zero/few/cot}.json
+    - completions txt file
+        path = mica-character-attribute-extraction/prompt-results/{zero/few/cot}.txt
+
+Parameters
+    - prompt method
+"""
 
 import os
 import re
@@ -41,10 +56,10 @@ def zero_shot_annot(_):
     encoding = tiktoken.encoding_for_model("text-davinci-003")
 
     # read samples
-    data_dir = os.path.join(os.getenv("DATA_DIR"), "narrative_understanding/chatter")
-    samples_file = os.path.join(data_dir, "attr_annot/samples.csv")
-    output_json_file = os.path.join(data_dir, f"attr_annot/{FLAGS.prompt_type}.json")
-    output_txt_file = os.path.join(data_dir, f"attr_annot/{FLAGS.prompt_type}.txt")
+    data_dir = os.path.join(os.getenv("DATA_DIR"), "mica-character-attribute-extraction")
+    samples_file = os.path.join(data_dir, "prompt-results/samples.csv")
+    output_json_file = os.path.join(data_dir, f"prompt-results/{FLAGS.prompt_type}.json")
+    output_txt_file = os.path.join(data_dir, f"prompt-results/{FLAGS.prompt_type}.txt")
     df = pd.read_csv(samples_file, index_col=None)
     df["is_goal"] = df["attr"] == "goal"
     df.sort_values("is_goal", ascending=False, inplace=True)

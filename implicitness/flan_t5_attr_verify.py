@@ -1,4 +1,38 @@
-"""Verify if segment/story descriptions describe character's attribute using google/flan-t5-*"""
+"""Verify if segment/scene descriptions describe character's attribute using google/flan-t5-*
+This gives us the implicitness score (refer to paper)
+
+Input
+    - segment descriptions csv file
+        - path = mica-character-attribute-extraction/implicitness/segment_descriptions.csv
+        - contains imdb id, segment id, segment description text, and character name
+        - segment id is location of segment in movie script
+        - produced by create_segment_descriptions.py
+    - scene descriptions csv file
+        - path = mica-character-attribute-extraction/implicitness/scene_descriptions.csv
+        - contains imdb id, scene id, scene description text, and character name
+        - scene id is location of scene in movie script
+        - produced by create_scene_descriptions.py
+    - prompt template txt file
+        - path = mica-character-attribute-extraction/implicitness/flan_t5_prompt_templates.txt
+        - contains the prompt to verify if segment/scene description contains attribute-value
+
+Output
+    - flan answers csv file
+        - path = mica-character-attribute-extraction/implicitness/flan_t5/*
+            suffix will be flan_t5_sample=n.csv if sample is specified, otherwise suffix will be flan_t5_x_of_y.csv
+            n is the number of samples, x is split id, and y is total number of splits (refer to parameters)
+        - contains id, attribute-type, answer, answer token id, answer probability fields
+        - id is the index in segment/scene descriptions file; if attribute-type is "goal" then it is the index in the
+            scene descriptions file, otherwise segment descriptions file
+
+Parameters
+    - gpu id
+    - inference batch size
+    - number of descriptions to sample
+    - total number of splits
+    - split id
+    - t5 model size
+"""
 
 import os
 import math
@@ -40,7 +74,7 @@ def timestr(total_seconds: float) -> str:
 def flan_t5_verify(_):
     """Prompt flan-t5 model to check if description describes/specifies character attribute"""
     # read segment and scene descriptions
-    data_dir = os.path.join(os.getenv("DATA_DIR"), "narrative_understanding/chatter/attr_verify")
+    data_dir = os.path.join(os.getenv("DATA_DIR"), "mica-character-attribute-extraction/implicitness")
     segment_desc_file = os.path.join(data_dir, "segment_descriptions.csv")
     scene_desc_file = os.path.join(data_dir, "scene_descriptions.csv")
     segment_desc_df = pd.read_csv(segment_desc_file, index_col=None)
@@ -169,7 +203,7 @@ def flan_t5_verify(_):
     for (ind, attr, _, _), (answer_text, answer_token_id, answer_prob) in zip(data, outputs):
         flan_t5_data.append((ind, attr, answer_text, answer_token_id, answer_prob))
     flan_t5_df = pd.DataFrame(flan_t5_data, columns=["id", "attr", "answer_text", "answer_token_id", "answer_prob"])
-    flan_t5_file = os.path.join(data_dir, output_file)
+    flan_t5_file = os.path.join(data_dir, "flan_t5", output_file)
     flan_t5_df.to_csv(flan_t5_file, index=False)
 
 if __name__ == '__main__':
