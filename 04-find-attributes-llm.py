@@ -45,12 +45,12 @@ from absl import app
 
 # define command-line flags
 FLAGS = flags.FLAGS
-flags.DEFINE_string("model", default="gpt-3.5-turbo-1106", help="OpenAI model to use for prompting")
+flags.DEFINE_string("model", default="gpt-4-turbo-1106-preview", help="OpenAI model to use for prompting")
 flags.DEFINE_integer("sample", default=1000, help="Number of story segments to sample")
 flags.DEFINE_integer("seed", default=99, help="Seed for random sampling")
 flags.DEFINE_bool("cost", default=False, help="Estimate cost only")
-flags.DEFINE_float("input_rate", default=1e-7, help="model token rate for input tokens")
-flags.DEFINE_float("output_rate", default=2e-7, help="model token rate for input tokens")
+flags.DEFINE_float("input_rate", default=3e-6, help="model token rate for input tokens")
+flags.DEFINE_float("output_rate", default=6e-6, help="model token rate for input tokens")
 
 # directories and files
 data_dir = os.path.join(os.getenv("DATA_DIR"), "mica-character-attribute-extraction")
