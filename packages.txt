@@ -1,0 +1,6 @@
+[run this command first] conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+[run this command second] conda install -c huggingface transformers
+[pandas numyp tqdm are already installed by above commands]
+conda install -c conda-forge absl-py openai gpustat matplotlib unidecode tenacity tiktoken langdetect scipy tikzplotlib
+conda install -c conda-forge cupy spacy
+conda install -c conda-forge sentence-transformers
