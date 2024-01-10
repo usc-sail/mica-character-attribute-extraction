@@ -133,3 +133,6 @@ dmypy.json
 
 # carc folder
 carc/
+
+# human-llm folder
+human-llm-annotation-experimental/

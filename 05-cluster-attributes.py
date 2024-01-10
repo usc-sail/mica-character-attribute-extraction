@@ -1,2 +1,0 @@
-"""Cluster the attribute-types
-"""
