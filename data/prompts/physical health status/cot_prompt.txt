@@ -1,0 +1,25 @@
+Given a passage from a movie script and a character mentioned in it, find the physical health condition of the character using only the passage text, such as whether they are suffering from any disease, injured, or physically fit. Write your answer as briefly as possible. If you cannot find any information about the physical health condition of the character, write CANNOT ANSWER.
+
+Passage: SHOTS of Deirdre and Erik struggling to get Momo settled. CONTINUE SOUNDS OF GETTING MOMO SETTLED (shuffling of feet, pills being sorted, pans being picked up) over-GLIMPSES OF THE APARTMENT: --the stairwell and its curves, rusted sections --a pre-war light fixture medallion sans light fixture BACK TO SCENE--Deirdre gives mumbling Momo a pill. Richard, Brigid and Aimee clean up the kitchen mess.
+Character: MOMO
+Answer: Deirdre is giving MOMO a pill, suggesting that MOMO is suffering from an unspecified illness. The passage also mentions the sound of getting MOMO settled, which implies that MOMO needs extra care and attention due to the illness. Therefore, the answer is "Suffering from an unspecified illness".
+
+Passage: Yuri shudders with the impact. The enraged Vitaly lunges towards the Leader but Yuri, despite his wound, holds him back.
+Character: YURI
+Answer: Yuri shudders with the impact and despite his wound, he holds Vitaly back. This suggests that Yuri is injured. Therefore, the answer is "Injured".
+
+Passage: Dave stops in mid-sentence. He raises his hand to his forehead and seems to rock a moment. A concerned murmur runs through the floor of the House.
+Character: DAVE
+Answer: Dave stops mid-sentence, raises his hand to his forehead, and seems to rock a moment. This does not provide enough evidence to determine the physical health status of Dave. Therefore, the answer is "CANNOT ANSWER"
+
+Passage: Rochefort crumples to the floor, dead. D'Artagnan looks at Rochefort's blood on his sword. His father's death finally avenged. That's when he hears the RUSTLE of a SILKEN ROBE. D'Artagnan pivots, sees Richelieu kneeling at Rochefort's body... extracting the treaty from his doublet.
+Character: ROCHEFORT
+Answer: Rochefort "crumples to the floor, dead" and Richelieu is "kneeling at Rochefort's body". This indicates that Rochefort is no longer alive. Therefore, the answer is "Dead".
+
+Passage: Close by to Barnard. Gloria's face is wan and haggard. Every upward move seems to require a Herculean effort. She stops and has a fit of coughing.
+Character: Barnard
+Answer: The camera pans to Barnard as a close by. The passage does not provide any other information about Barnard. We cannot determine Barnard's physical health status from this. Therefore, the answer is "CANNOT ANSWER"
+
+Passage: And then we find our Hector. He stands against the wall, holding a large towel. Although clean-shaven and more healthy-looking we can still recognize Hector, more so * by the look in his eyes. There is a set to his face that tells us he is a man alone, emotionally detached from his surroundings. He is a personal body slave. He watches his master in the pool, alert to any hint of need that he might have.
+Character: HECTOR
+Answer: The passage describes Hector as "clean-shaven and more healthy-looking" and as being "alert to any hint of need" from his master. This suggests that Hector is physically fit and able to perform his duties as a personal body slave. Therefore, the answer is "Physically fit".

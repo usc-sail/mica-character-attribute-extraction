@@ -1,0 +1,29 @@
+Given a passage from a movie script and a character mentioned in it, find what clothes or type of attire is worn by the character using only the passage text. If they are not wearing anything, answer as NUDE. If you cannot find an answer, write CANNOT ANSWER.
+
+Passage: Pavel exits office, closing the door. Doug gets out the envelope with the money in and writes on it "BUGLER", name and address, attention Henry Whittaker. Doug then puts the envelope back in his jacket pocket and moves to the window.
+Character: DOUG
+Answer: Jacket
+
+Passage: In the fine master bedroom, MISS ELEANOR HAVISHAM sits in front of a mirror. It's hard to see her face beneath the veil, but she's a little older than one might expect for a bride in the last years of the 18th Century. Nevertheless, there's no mistaking the grace and beauty there - nor the discontent and resentment in the eyes of ARTHUR HAVISHAM, the half-brother, sulky and malign.
+Character: ELEANOR HAVISHAM
+Answer: WEDDING DRESS
+
+Passage: Nick, Dev, Thom and the Beefy Guy are combing getting distracted by a CHORUS of MEN dressed sans pants. Dev is especially distracted.
+Character: Dev
+Answer: CANNOT ANSWER
+
+Passage: Faith wades into the water then submerges under its icy surface. Emily peels off her dress down to her bra and underwear. She wades into the water with a gasp, her jaw clenched against the cold. Faith surfaces and treads water.
+Character: EMILY
+Answer: BRA and UNDERWEAR
+
+Passage: Harvey has lunch with the "gay establishment": DAVID GOODSTEIN, 58, gold and turquoise jewelry, and Goodstein's protege, RICK STOKES, 45, reserved. Rick can't keep his eyes off naked Scott in the pool.
+Character: Scott
+Answer: NUDE
+
+Passage: Jimmy Dix leaves the bedroom. Pads barefoot down a hall littered with beer cans, food wrappers. A sleeping guy. Stops at a door, peeks in: all-night poker game in progress. Four bleary-eyed men. Unshaven. Stack of wrinkled money on a card table.
+Character: Jimmy Dix
+Answer: CANNOT ANSWER
+
+Passage: shoves Gang Banger #1 off of her as Jason returns his attention to her. She grabs a loose brick and FLINGS IT AT HIM, CRACKING HIS HOCKEY MASK, momentarily disorienting him. Rennie sprints away.
+Character: Jason
+Answer: Hockey Mask

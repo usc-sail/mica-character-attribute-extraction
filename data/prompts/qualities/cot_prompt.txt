@@ -1,0 +1,29 @@
+Given a passage from a movie script and a character mentioned in it, find any special unique qualities, skills, or abilies of the character using only the passage text. Write your answer as briefly as possible. If you cannot find any special skills of the character, write CANNOT ANSWER.
+
+Passage: Carnegie is such an impassioned and inspiring speaker it's almost impossible not to get caught up and swept away by his words. His apparently unshakable belief is infectious.
+Character: CARNEGIE
+Answer: Carnegie is an impassioned and inspiring speaker whose words are so powerful that it is almost impossible not to get caught up in them. His apparently unshakable belief is also described as infectious, indicating that he is charismatic and persuasive. His qualities are that he is charismatic, inspiring, and persuasive. Therefore, the answer is "Charismatic, inspiring, persuasive".
+
+Passage: Through her Engineer's lens Watts sees DAVID manipulating a complex interface of light. The pulsing life-signs of the Sleeper begin to change.
+Character: DAVID
+Answer: David is shown manipulating a complex interface of light, which suggests he has a high level of skill and knowledge in this area. Therefore, David's skill is technological expertise. Therefore, the answer is "Technological expertise".
+
+Passage: The "MESSIAH" FADES and an R & B BAND breaks into ROUSING MUSIC as Feingold approaches and sticks a CIGAR in his mouth, LIGHTS it.
+Character: FEINGOLD
+Answer: Feingold is smoking a cigar. This does not give any indication about Feingold's qualities, skills, or abilities. Therefore, the answer is "CANNOT ANSWER"
+
+Passage: - Jeff completes the remaining ploughing - Jeff ripping out a dead tree trunk - The green shoots of the hay field begin to flourish - The dry river bed fills with fast-flowing water - Jeff amongst other workers, harvesting the hay - Jeff telling a story to the spellbound children - The Dog running, chasing a small rodent down a hole - Jeff locking his shackles. Handing the key to Zahne - Jeff stomping after birds eating newly sown seed - Jeff excitedly examining a new tree seedling - Jeff helps build a new cabin for one of the families - Jeff acting as schoolteacher. All the children, and several adults watch as he teaches them mathematics DISSOLVE TO: SOUND OVER: CHILDREN SINGING A CHRISTMAS CAROL.
+Character: JEFF
+Answer: The passage gives evidence of Jeff's qualities by showing him completing the remaining ploughing, ripping out a dead tree trunk, harvesting the hay, telling a story to the spellbound children, stomping after birds eating newly sown seed, examining a new tree seedling, helping build a new cabin for one of the families, and acting as schoolteacher. These activities demonstrate Jeff's qualities of being a hardworking, knowledgeable, resourceful, patient, and kind person. Therefore, the answer is "Hardworking, knowledgeable, resourceful, patient, kind".
+
+Passage: Jackie, carrying a sixteen ounce can of "Budweiser" in a paper bag, and Terry, push their way through the silent crowd in front of the spectator line, uniformed cops lining the funeral route to the gravesite, all of them wearing dress uniforms and white gloves, police pipers marching in front of the flag-draped casket, the pipers playing the funeral dirge, uniformed cops, police officials, politicians, etc., marching behind the casket, silent spectators on both sides.of the funeral route, media people taping the event, etc., acres of gravestones in the b.g. TERRY AND JACKIE
+Character: JACKIE
+Answer: Jackie is carrying a can of "Budweiser" and pushes his way through the crowd. This description does not provide any information about Jackie's qualities, skills, or abilities. Therefore, the answer is "CANNOT ANSWER"
+
+Passage: KEN dresses in a neat suit and tie, hides RAY's gun in a cupboard, checks his own gun is loaded and pockets it, and lays a sealed envelope on the pillow of his neatly-made bed. He looks over the room one last time, and exits. The envelope
+Character: KEN
+Answer: Ken is dressed in a neat suit and tie, hides Ray's gun in a cupboard, checks his own gun is loaded and pockets it, and lays a sealed envelope on the pillow of his neatly-made bed. This shows that he is neat, pays attention to detail, is prepared, and is proficient with guns. Therefore, the answer is "Neatness, attention to detail, preparedness, gun proficiency".
+
+Passage: Bernie gets the wallet to his lap. In between cautious glances toward the bench where the conference continues inaudibly, he surreptitiously selects some of the twenties and some of the tens from the wallet.
+Character: BERNIE
+Answer: Bernie is able to select some of the twenties and tens from the wallet without being noticed by the people at the conference. Therefore, stealth and resourcefulness are some of Bernie's qualities. Therefore, the answer is "Stealth and resourcefulness".

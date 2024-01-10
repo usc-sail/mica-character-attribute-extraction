@@ -1,0 +1,33 @@
+Given a passage from a movie script and a character mentioned in it, infer the emotions, feelings, or mental state of the character using only the passage text. Write your answer as briefly as possible. If you cannot infer the emotions of the character, write CANNOT ANSWER.
+
+Passage: IN THE MANUFACTORY: Armand enters, Ferroq and McGivens pushing Elena and Joaquin onward. IN THE TUNNEL: Zorro's getting the hell beaten out of him SEES THE FUSE moving toward the locomotive, manages to BREAK AWAY only to be TACKLED by the Stoker, Zorro's hand just out of reach of the fuse as it STREAKS ON -- and it's too late, there's no way he'll stop it now.
+Character: ZORRO
+Answer: Frustration, desperation.
+
+Passage: Maurice is out of the truck and Kenneth, with a shotgun, is scrambling to be next. Buddy catches him by his jacket collar and holds him squirming until Foley is out.
+Character: KENNETH
+Answer: Fear, panic.
+
+Passage: The ADMIRAL'S MEN are all in costume, and are in a buzz of nervous excitement. ALLEYN, dressed for "MERCUTIO," is giving last minute instructions to PETER. JAMES and JOHN HEMMINGS are arguing about the timing of their entrance. FENNYMAN in his apothecary's cap is agonising over his lines. WABASH is stuttering over his. Alone in his dejection in the midst of all this, is WILL, dressed for "Romeo." FENNYMAN approaches him, apothecary's cap in hand.
+Character: WABASH
+Answer: Nervousness, anxiety.
+
+Passage: Adrienne gets several small suitcases from the closet, opens them on the bed. She begins packing as Gentry watches from the doorway. After a moment she stops, straightens. What?
+Character: ADRIENNE
+Answer: CANNOT ANSWER.
+
+Passage: Kate's room is empty, and Dade can't resist going back in to play with her laptop, which far outclasses his own, some more. On the balcony, Kate notices and comes back in.
+Character: DADE
+Answer: Curiosity, excitement.
+
+Passage: Queen's heart aches for the men in blue jumpsuits who mean nothing more to this country than a pair of strong hands that can do cheap manual labor. Is it?
+Character: QUEEN
+Answer: Sadness
+
+Passage: She blinks the spray from her eyes, and deftly SEARS the wire dividing those two numbers on the board. As Mac keeps waving it, she goes off line. Concentrates. Gets it right. The wire PEELS away...
+Character: MAC
+Answer: CANNOT ANSWER.
+
+Passage: Riggs lowers the gun. Lets go and drops twenty feet to the pavement. Lands, rolls, comes up. A CAR swerves around him. CRASHES into the guardrail. Riggs doesn't even look. Instead, he begins to walk. He is a fucking juggernaut.
+Character: RIGGS
+Answer: Determined, focused.

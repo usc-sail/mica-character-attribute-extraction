@@ -1,0 +1,29 @@
+Given a passage from a movie script and a character mentioned in it, find any special unique qualities, skills, or abilies of the character using only the passage text. Write your answer as briefly as possible. If you cannot find any special skills of the character, write CANNOT ANSWER.
+
+Passage: Carnegie is such an impassioned and inspiring speaker it's almost impossible not to get caught up and swept away by his words. His apparently unshakable belief is infectious.
+Character: CARNEGIE
+Answer: Charismatic, inspiring, persuasive.
+
+Passage: Through her Engineer's lens Watts sees DAVID manipulating a complex interface of light. The pulsing life-signs of the Sleeper begin to change.
+Character: DAVID
+Answer: Technological expertise.
+
+Passage: The "MESSIAH" FADES and an R & B BAND breaks into ROUSING MUSIC as Feingold approaches and sticks a CIGAR in his mouth, LIGHTS it.
+Character: FEINGOLD
+Answer: CANNOT ANSWER
+
+Passage: - Jeff completes the remaining ploughing - Jeff ripping out a dead tree trunk - The green shoots of the hay field begin to flourish - The dry river bed fills with fast-flowing water - Jeff amongst other workers, harvesting the hay - Jeff telling a story to the spellbound children - The Dog running, chasing a small rodent down a hole - Jeff locking his shackles. Handing the key to Zahne - Jeff stomping after birds eating newly sown seed - Jeff excitedly examining a new tree seedling - Jeff helps build a new cabin for one of the families - Jeff acting as schoolteacher. All the children, and several adults watch as he teaches them mathematics DISSOLVE TO: SOUND OVER: CHILDREN SINGING A CHRISTMAS CAROL.
+Character: JEFF
+Answer: Hardworking, knowledgeable, resourceful, patient, kind.
+
+Passage: Jackie, carrying a sixteen ounce can of "Budweiser" in a paper bag, and Terry, push their way through the silent crowd in front of the spectator line, uniformed cops lining the funeral route to the gravesite, all of them wearing dress uniforms and white gloves, police pipers marching in front of the flag-draped casket, the pipers playing the funeral dirge, uniformed cops, police officials, politicians, etc., marching behind the casket, silent spectators on both sides.of the funeral route, media people taping the event, etc., acres of gravestones in the b.g. TERRY AND JACKIE
+Character: JACKIE
+Answer: CANNOT ANSWER
+
+Passage: KEN dresses in a neat suit and tie, hides RAY's gun in a cupboard, checks his own gun is loaded and pockets it, and lays a sealed envelope on the pillow of his neatly-made bed. He looks over the room one last time, and exits. The envelope
+Character: KEN
+Answer: Neatness, attention to detail, preparedness, gun proficiency.
+
+Passage: Bernie gets the wallet to his lap. In between cautious glances toward the bench where the conference continues inaudibly, he surreptitiously selects some of the twenties and some of the tens from the wallet.
+Character: BERNIE
+Answer: Stealth and resourcefulness.

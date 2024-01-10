@@ -1,0 +1,29 @@
+Given a passage from a movie script and a character mentioned in it, find the hair color, hair type or other attributes of the character's hair. Write your answer as briefly as possible. If you cannot find any attributes of the character's hair, write CANNOT ANSWER.
+
+Passage: ON ROSALIE, 18, long blonde hair, model beautiful, knows it. Alongside her is EMMETT, 17, big, brawny, like a weight lifter, but a playful glint in his eye.
+Character: ROSALIE
+Answer: The passage describes Rosalie as having "long blonde hair". Therefore, the answer is "Long blonde hair".
+
+Passage: She's just about to say something when RAY GRIFFEN arrives. Ray's the starting tailback, black, handsome, clean-cut, well-spoken, middle class.
+Character: RAY
+Answer: Ray is a handsome, black, well-spoken starting tailback player. This does not provide any information about Ray's hair. Therefore, the answer is "CANNOT ANSWER".
+
+Passage: Carter switches on the light. Edna is pressed against the far wall, holding a poker. Her dress is torn and her hair dishevelled. When she sees Carter, she sighs with relief.
+Character: EDNA
+Answer:  Edna's dress is torn and her hair is dishevelled. Therefore, the answer is "Dishevelled".
+
+Passage: The bespectacled, short-haired MURRAY ROSENBERG, 48, looks over and spots Danny listening outside. Murray walks over and shuts the door. He looks at DR. SWEENEY, who now has his jacket off.
+Character: Danny
+Answer: Dany is eavesdropping. This action does not give any indication about Danny's hair. Therefore, the answer is "CANNOT ANSWER".
+
+Passage: She points to a table at the side of the restaurant. JIMMY ELLIS, a bald. little man in his 80's, is sitting at a table. With him is another MAN, VINCE, also in his 80's. Harry and Archie approach. Jimmy looks up, recognizes them immediately and smiles. JIIvIMY
+Character: JIMMY
+Answer: Jimmy is described as a "bald little man in his 80's". Therefore, Jimmy is bald. Therefore, the answer is "Bald".
+
+Passage: Cynthia stands at a MAGNIFYING MIRROR, moving her finger across her jaw, feeling something. She leans in and lifts her chin. IN THE MIRROR, her magnified chin sprouts ONE BRISTLY HAIR. Cynthia locates some TWEEZERS and tries to grab the offending hair. Her first attempt fails, so she tries again, pulling her lips into her mouth. GOT IT! She holds the tweezers up to examine the wiry whisker, then notices a PIN-SIZED DROP OF BLOOD on her chin. She grabs some toilet paper and dabs at it.
+Character: CYNTHIA
+Answer: Cynthia observes herself in front of a mirror. She finds a bristly hair on her chin and cuts it off. We cannot include facial hair to describe attributes of Cynthia's hair, therefore it does not count. The passage does not provide any other information about Cynthia's hair. Therefore, the answer is "CANNOT ANSWER".
+
+Passage: Monica emerges, walking her banana-seater. She is looking cute in her yellow dress and braids tied with ribbons. A basketball sits in her back basket.
+Character: MONICA
+Answer: Monica's hair is styled as braids tied with ribbons. Therefore, the answer is "Braids, ribbons".

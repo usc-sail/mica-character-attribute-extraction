@@ -1,0 +1,29 @@
+Given a passage from a movie script and a character mentioned in it, find the explicitly described physical attributes of the character's body using only the passage text. Write your answer as briefly as possible. If you cannot find any physical attributes of the character's body, write CANNOT ANSWER.
+
+Passage: Hans pours the water on the fireplace, putting out the fire. Anna tries to stop him. She falls to the floor, weak.
+Character: ANNA
+Answer: Anna tries to stop Hans from putting out the fire. But she falls to the floor, indicating her physical weakness. Therefore, the answer is "Weak".
+
+Passage: The untouched chicken broth sits on the night stand. Gideon is TALKING in his sleep. Morning light filters through the window shade. The room takes on a brownish tint. Gideon has dark rings under his eyes and looks like he has aged considerably.
+Character: Gideon
+Answer: Gideon has dark rings under his eyes and it looks like he has aged considerably. Therefore, the answer is "Dark rings under eyes, aged considerably".
+
+Passage: The archive footage continues, but it is not of the Coronation. David and Wallis visiting the Fuhrer in Germany: Hitler gallantly kissing Mrs Simpson's hand while Goring and the Duke of Windsor beam; David giving the Nazi salute. FREEZE FRAME. The lights come on. For once, Churchill is speechless.
+Character: CHURCHILL
+Answer: Churchill is speechless. This does not provide any evidence of physical attributes of Churchill's body. Therefore, the answer is "CANNOT ANSWER".
+
+Passage: All." Our credits are intercut in the cement blocks as the camera pans across this local tourist attraction. Cut to SINCLAIR STEVENS, the handsome but intense 20-year-old theater manager as he adjusts the final letter of the film's title on the marquee, perched atop a ladder. SINCLAIR is dressed in an obviously rented tuxedo and for a moment seems like any other middle class suburban kid.
+Character: SINCLAIR STEVENS
+Answer: The passage describes Sinclair Stevens as "handsome but intense" and a "20-year-old theater manager". Therefore, the answer is "Handsome, intense, 20-year-old".
+
+Passage: In the dingy gas station bathroom, Ben stands in front of a broken mirror, a newly bought hair clipper in his hand. He slowly, methodically, buzzes off his beard.
+Character: BEN
+Answer: Ben is using a hair clipper to buzz off his beard. Therefore, the answer is "Ben has a beard".
+
+Passage: We see Rowley jot something in his notebook. We can read the words "sash no good" at the bottom of a list that includes "no pics mommy", "long hair ok skateboard" and "butterflies = death".
+Character: ROWLEY
+Answer: Rowley is writing in his notebook. The passage does not provide any physical attributes of Rowley's body. Therefore, the answer is "CANNOT ANSWER"
+
+Passage: Dazed SANDRA crawls across the carpet, determined, rigorous, vision-blurred, face bloodied. She pushes one of the patio-doors open, just slightly - too late - GARY grabs a handful of hair and hauls her back. Sandra's LEFT HAND, reaching out, clawing for the door-frame. She's dragged back until SLAM. GARY's steel cap boot rages down. A sickening crunch. Her hand under, his boot. Crushing it. An agonized howl. Silence.
+Character: Sandra
+Answer: The passage describes Sandra crawling across the carpet with her vision blurred and her face bloodied. Gary grabs a handful of her hair and drags her back. He crushes her hand with his steel cap boot, resulting in an agonized howl. Therefore, the answer is "Bloodied face and hand".

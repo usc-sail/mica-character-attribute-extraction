@@ -1,0 +1,33 @@
+Given a passage from a movie script and a character mentioned in it, find the profession of the character using only the passage text. Write your answer as briefly as possible. Unless the passage clearly and explicitly states the character's profession, write CANNOT ANSWER.
+
+Passage: 11. EXTERIOR FRONT ENTRANCE HARBOR COURT. 11. Limos await dignitaries for publicity cavalcade to Senator Theater premiere. PETIE, a 22-year-old hillbilly tough guy, dressed in a chauffeur's uniform sits behind the wheel of a white limousine as HONEY and MAYOR and their entourages make their way to limos followed by PRESS.
+Character: PETIE
+Answer: Chauffeur
+
+Passage: (CU) A file folder is opened. We SEE recent PHOTOGRAPHS of Harry and Archie, alongside their original MUG SHOTS. (WIDE) DEKE YABLONSKI, is walking through the busy squadroom with WATCH COMMANDER, CAPT. RALPH JARVIS, 40. Jarvis is studying the file.
+Character: JARVIS
+Answer: WATCH COMMANDER
+
+Passage: Yes! You Must! (pointing inside) Harry, you're in Hagrid's hut right now. If you go bursting inside, you'll think you've gone mad. Awful things can happen when wizards meddle with time. We can't be seen. Hermione turns, watches Fudge and the others drawing closer. She frowns, glances into the hut.
+Character: HAGRID
+Answer: CANNOT ANSWER
+
+Passage: In the midst of morning Mass, the novices are all seated together in their pews. As the Priest then beckons the entire congregation to pray, we focus on Cathleen who's still so distracted she forgets to lower her head. Seated beside her, Sister Charlotte notices and gently nudges her. Cathleen looks up confused. Charlotte then shoots her a look like, "Everyone's praying."
+Character: Sister Charlotte
+Answer: Nun
+
+Passage: (10) The lights come on. George Valentin comes onto the stage and acknowledges the audience, they are cheering for him. He is so happy he dances a few tap steps to express his joy then he acknowledges the orchestra before finally motioning to someone in the wings to join him. Jack the dog trots over in response. The crowd laughs and cheers, George waves to the dog, Jack waves back then waves at the audience, the people are loving it!
+Character: JACK
+Answer: CANNOT ANSWER
+
+Passage: Clarence Oveur is in the pilot's seat. VICTOR BASTA is seated at engineer's console. There is a St. Christopher's statue on the dashboard.
+Character: VICTOR BASTA
+Answer: CANNOT ANSWER
+
+Passage: TWO GUYS sitting at the counter in team jackets. The older of the two holds up his empty coffee cup. But his WAITRESS, standing a couple seats down from him, doesn't move. She's completely absorbed in watching the soap opera that plays on two battered, fuzzy TV sets. BETTY SIZEMORE, 30, has a wholesome attractiveness that competes with a bit too much makeup and a cheesy white waitress uniform. TWO OTHER WAITRESSES attend to customers behind her. The younger of the two guys is involved in the soap opera. But the older one, still wants coffee. He gestures toward Betty.
+Character: BETTY SIZEMORE
+Answer: Waitress
+
+Passage: Mercedes is in the back, wearing the darkest glasses allowed a teacher in a classroom, hiding the fact that Mercy is looking at Larry. Larry is listening to Lala with delight.
+Character: MERCEDES
+Answer: Teacher

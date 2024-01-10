@@ -1,0 +1,25 @@
+Given a passage from a movie script and a character mentioned in it, find the physical health condition of the character using only the passage text, such as whether they are suffering from any disease, injured, or physically fit. Write your answer as briefly as possible. If you cannot find any information about the physical health condition of the character, write CANNOT ANSWER.
+
+Passage: SHOTS of Deirdre and Erik struggling to get Momo settled. CONTINUE SOUNDS OF GETTING MOMO SETTLED (shuffling of feet, pills being sorted, pans being picked up) over-GLIMPSES OF THE APARTMENT: --the stairwell and its curves, rusted sections --a pre-war light fixture medallion sans light fixture BACK TO SCENE--Deirdre gives mumbling Momo a pill. Richard, Brigid and Aimee clean up the kitchen mess.
+Character: MOMO
+Answer: Suffering from an unspecified illness.
+
+Passage: Yuri shudders with the impact. The enraged Vitaly lunges towards the Leader but Yuri, despite his wound, holds him back.
+Character: YURI
+Answer: Injured.
+
+Passage: Dave stops in mid-sentence. He raises his hand to his forehead and seems to rock a moment. A concerned murmur runs through the floor of the House.
+Character: DAVE
+Answer: CANNOT ANSWER
+
+Passage: Rochefort crumples to the floor, dead. D'Artagnan looks at Rochefort's blood on his sword. His father's death finally avenged. That's when he hears the RUSTLE of a SILKEN ROBE. D'Artagnan pivots, sees Richelieu kneeling at Rochefort's body... extracting the treaty from his doublet.
+Character: ROCHEFORT
+Answer: Dead.
+
+Passage: Close by to Barnard. Gloria's face is wan and haggard. Every upward move seems to require a Herculean effort. She stops and has a fit of coughing.
+Character: Barnard
+Answer: CANNOT ANSWER
+
+Passage: And then we find our Hector. He stands against the wall, holding a large towel. Although clean-shaven and more healthy-looking we can still recognize Hector, more so * by the look in his eyes. There is a set to his face that tells us he is a man alone, emotionally detached from his surroundings. He is a personal body slave. He watches his master in the pool, alert to any hint of need that he might have.
+Character: HECTOR
+Answer: Physically fit.

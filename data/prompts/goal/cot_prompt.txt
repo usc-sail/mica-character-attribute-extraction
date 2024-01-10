@@ -1,0 +1,141 @@
+Given a passage from a movie script and a character mentioned in it, find the goal or motive of the character, or what they are trying to achieve. Write your answer as briefly as possible. If you cannot find the goal of the character, write CANNOT ANSWER.
+
+Passage:
+EXT. TRIBAL JOB OFFICE - DAY
+Brady's truck pulls up. He is a little nervous. He checks himself in the mirror.
+BRADY says "Stay in here all right Lil? Ok Brady."
+LILLY
+Lilly focuses on her recorder.
+LILLY (CONT'D) says "I believe my pleasure is my favorite thing to do is sing along. Brady takes tobacco chew out of his mouth and throws it out of the window. INT. TRIBAL JOB OFFICE - DAY Brady sits across the table from HELENA. A Lakota woman with long braids and a strong gaze."
+HELENA says "Do you have a resume? No, ma'am."
+BRADY
+HELENA says "Any job experience?"
+BRADY says "I'm a horse trainer."
+HELENA says "You can't do that right now?"
+BRADY says "I would... But I can't for a while, since I'm laid up... So..."
+22.
+HELENA says "Well, you have two options. Oglala Lakota College has a GED program. The OST TERO office has job training program for construction... Road work... Brady can't help but interrupts her."
+BRADY says "I'm looking for something a little more temporary than that. They look at each other."
+BRADY (CONT'D) says "...You know, I'm... probably gonna be training horses in a few month."
+HELENA says "You still need something to fall back on. You can't train horses forever. Brady looks away. Helena looks at him for another moment, then she starts writing on a posted."
+HELENA (CONT'D) says "I have a cousin who is the manager of Dakota Mart. His name is Robbie. They have some temporary positions. Tell him I sent you. Brady takes the posted."
+BRADY says "Ok... Thank you. He gets up and walks towards the door."
+HELENA says "You look like your mom. Brady stops and looks back to her."
+HELENA (CONT'D) says "I used to go to high school with her. She was really awesome. Brady nods, forces a smile."
+23.
+
+Character: BRADY
+Answer: Brady mentions that he is looking for something temporary, and Helena suggests a job at Dakota Mart with her cousin Robbie. Therefore, the answer is "Find a temporary job to support himself while he is laid up and unable to train horses".
+
+
+Passage:
+INT. ZPD - BULLPEN - CONTINUOUS
+Hopps enters the bullpen, by far the smallest animal in the room: rhinos, buffalo, hippos, elephants, etc. Hopps holds her paw out to a tough RHINO, MCHORN.
+HOPPS says "Hey. Officer Hopps. You ready to make the world a better place?"
+McHorn gives Hopps a reluctant fist bump, nearly knocking her off the chair.
+OFFICER HIGGINS (O.S.) says "TEN HUT!"
+In walks CHIEF BOGO, a gruff CAPE BUFFALO. He takes the dais. Everyone snaps to attention and starts stomping the floor.
+BOGO says "All right, all right. Everybody sit."
+As Hopps sits, she disappears below the DESK that is meant for a rhino.
+BOGO (CONT'D) says "I've got three items on the docket. First... we need to acknowledge the elephant in the room. (nods to ELEPHANT) Francine, happy birthday."
+An elephant, FRANCINE, blushes as other cops clap.
+BOGO (CONT'D) says "Number two: There are some new recruits with us I should introduce. But I'm not going to, because I don't care. Finally..."
+He turns to a push pin-pocked MAP that's covered in photos of MISSING MAMMALS. Hopps's eyes go wide.
+BOGO (CONT'D) says "...We have 14 missing mammal cases. All predators, from a giant polar bear, to a teensy little otter. And City Hall is right up my tail to find them. This is priority number one. Assignments!"
+HIGGINS hands Bogo a stack of CASE FILES. Bogo puts on his reading glasses, examining the files as he assigns cases.
+19.
+BOGO (CONT'D) says "Officers Grizzoli, Fangmeyer, Delgato-- your teams take Missing Mammals from the Rainforest District. Officers McHorn, Rhinowitz, Wolfard, your teams take Sahara Square. Officers Higgins, Snarlov, Trunkaby: Tundratown. And finally, our first bunny, Officer Hopps."
+Hopps sits up, expectant but steely. Bogo looks at the final case file in his hand. He takes a dramatic breath, then:
+BOGO (CONT'D) says "Parking Duty. Dismissed!"
+HOPPS says "Parking duty? (runs after Bogo) Uh, Chief? Chief Bogo?"
+Bogo looks around... then down to find Hopps.
+HOPPS (CONT'D) says "Sir, you said there were 14 missing mammal cases?"
+BOGO says "So."
+HOPPS says "So I can handle one. You probably forgot, but I was top of my class at the academy."
+BOGO says "Didn't forget. Just don't care."
+HOPPS says "Sir, I'm not just some "token" bunny."
+BOGO says "Well, then writing a hundred tickets a day should be easy."
+He goes, slamming the door behind him. Judy stomps her foot.
+HOPPS says "100 tickets...? I'm not gonna write 100 tickets... I'm gonna write 200 tickets! (MORE) 20."
+HOPPS (CONT'D) says "(then, to the closed door) Before noon!"
+
+Character: CHIEF BOGO
+Answer: Chief Bogo assignes cases to officers and discusses the missing mammals. He also expresses the urgency of finding the missing mammals and the pressure from City Hall to do so. Therefore, the answer is "To assign cases to officers and find the missing mammals".
+
+Passage:
+EXT. SHOWJUMPING FIELD. DAY
+A HORSE clears a showjumping barrier. Grant applauds.
+GRANT says "Bravo, Vivienne! Well done!"
+Arthur's watching, sweating in the sunshine, while Marty and Hobson wait in the Bentley.
+ARTHUR says "I'd be wary, Grant. She's planning to ride you around the course next. Her last boyfriend broke his ankle jumping that ditch. Had to be destroyed on the spot."
+Vivienne canters her horse up to them.
+VIVIENNE says "Arthur. What's so urgent that you had to come all the way out here?"
+ARTHUR says "I'm in love. With a woman who isn't exactly who you'd describe as Susan. She's called Naomi."
+VIVIENNE says "Arthur, we've been through this!"
+ARTHUR says "Won't you at least meet her?"
+VIVIENNE says "What family is she from?"
+ARTHUR says "The Snarts of Detroit. 66."
+VIVIENNE says "Never heard of them."
+ARTHUR says "No, because they're normal. She's a walking tour guide, her dad's a retired car worker."
+VIVIENNE says "Susan will generate quality sons, not oil-soaked car monkeys."
+ARTHUR says "Unbelievable! Why don't you just keep me here, pay a servant to wank me into a bottle once a day..."
+VIVIENNE says "Arthur..."
+ARTHUR says "...then inject it all into a field of heiresses and see who farts out a thoroughbred first?"
+VIVIENNE says "We need an heir!"
+ARTHUR says "Fine! You can have one with Stevey Steroids here! Surely even your uterus has had a face lift by now."
+Arthur storms away towards the car.
+GRANT says "(STEPPING IN) That's enough, Arthur..."
+ARTHUR says "None of your business, J Crew."
+GRANT says "You are so ungrateful to your mother. She adores you!"
+VIVIENNE says "Arthur. Come back here."
+ARTHUR says "You can shove your inheritance up your horse's arse! 67."
+Arthur jumps into the car and it pulls away. Vivienne sits shocked on her horse. But then she throws it into a gallop and catches up.
+VIVIENNE says "Suit yourself, Arthur. Follow your heart. But do be aware I consider what you've squandered so far an advance on your inheritance. That's about $17 million."
+ARTHUR says "Why would you do that? You'd never get it back."
+VIVIENNE says "No. But you'd spend the rest of your life in court. There's a simple solution to all this. Marry Susan. And cheat with the nobody from Queens."
+
+Character: Vivienne
+Answer: Vivienne is trying to persuade Arthur to marry Susan and have an heir to the family fortune. She mentions the importance of having an heir and even offers Arthur an advance on his inheritance if he agrees. Therefore, the answer is "Get Arthur to marry Susan and have an heir to the family fortune".
+
+
+Passage:
+INT. TECUMSEH HIGH SCHOOL - CORRIDOR - DAY
+CHRISTY MALONE, 17, fills her cheerleader uniform in all the right places. We watch her at her locker. Also in SLOW MO. Which makes even her most mundane task seem graceful. Wow, just look at her stack those books.
+TED (V.O.) says "That's Christy Malone. Head cheerleader, love of my life, lust of my loins."
+Christy glances off screen and SQUEALS excitedly. Another cheerleader enters the frame, holding a newspaper called "EXPOSED!" Christy reads the headline.
+CHRISTY says ""Health Teacher Flunks Her Own Lesson!" No WAY! It's Miss Pratt, smoking a doobie!"
+Christy calls to Ted....
+CHRISTY (CONT'D) says "Look at this, Ted! Imagine if we did THIS in the school paper!"
+She shows him "Exposed!" Ted gawks. Happy just to be this close to Christy. But they are quickly interrupted by...
+PRINCIPAL MERKIN (O.S.) says "Hand them over! Immediately!"
+PRINCIPAL RICHARD MERKIN, mid-50's, marches down the hallway, seizing copies of "EXPOSED!" from students' hands. We can see that it is a "homemade" looking newspaper. And there's obviously much ado about it. Christy winks at Ted as she hides the newspaper in her locker.
+FREEZE FRAME ON Christy, WINKING.
+TED (V.O.) says "Look at that smile. That wink. That's no platonic wink. That's a wink that says, "I don't just want you, Ted. I NEED you." So of course I had to ask her to the prom. I mean, she was practically begging for it."
+
+Character: CHRISTY
+Answer: The passage does not provide enough information to determine Christy's goal. All we know is that she is a cheerleader, she is excited about a newspaper article, and she winks at Ted. We cannot infer her goal from this passage. Therefore, the answer is "CANNOT ANSWER"
+
+
+Passage:
+INT. DEN - MASSEY HOUSE
+Miles and Marylin watching a cable movie crowded together on the small sofa.
+MARYLIN says "I'm sorry. I'm squishing you. I'll move to the..."
+MILES says "No. Stay. I want you close to me. This couch is wrong. It's not a "married couch.""
+He surveys his surroundings with a critical eye.
+MARYLIN says "Honey, I could sit..."
+MILES says "In fact, this is not a married house -- it's a bachelor pad."
+MARYLIN says "Hardly. You have six bedrooms"
+MILES says "I know. But I've converted most of them into ridiculous "Guy" rooms -- a billiard room, a card room, a gym -- Honey, want you to go out, as soon as you feel up to it -- and buy married things. Woman things. Personalize it. Marylinize it. Make this your house."
+He hands her a credit card.
+MILES says "Here's my card. Spend as much as you want. We get mileage."
+MARYLIN says "Well, I suppose I could "girly" it up for you with a little Fortuny, and some passementerie --"
+MILES says "Good. (Beat) Are those foods?"
+MARYLIN says "Fabric and fringe."
+MILES says "Exactly. And then -- maybe -- not right away -- There's a room right off the bedroom -- It would be perfect for a nursery. (He takes her hands) It's a walk in humidor right now -- but if I took out the refrigeration unit --"
+MARYLIN says "Miles."
+MILES says "I think a nursery should be right off the master suite. My parents put mine in the guest house. Apparently they did have a Fisher Price intercom, but my mother turned it off when I was seven months old because I was so --"
+She stops him with a kiss.
+MILES says "You want children, don't you?"
+
+Character: MILES
+Answer: Miles is surveying his surroundings with a critical eye and suggests that Marylin "personalize it" and "Marylinize it" to make it their house. He then hands her a credit card and encourages her to buy married things and "girly" it up. He also suggests that they convert one of the rooms into a nursery. All of this shows that Miles is actively trying to create a home suitable for a married couple, including a nursery for their future children. Therefore, the answer is "Miles wants to create a home for himself and Marylin that is suitable for a married couple, including a nursery for their future children".

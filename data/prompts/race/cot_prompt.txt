@@ -1,0 +1,17 @@
+Given a passage from a movie script and a character mentioned in it, find the race or ethnicity of the character using only the passage text. Write your answer as briefly as possible. If you cannot find the race or ethnicity of the character, write CANNOT ANSWER.
+
+Passage: Standing on the porch is SHELBY, an optimistic looking white boy - age 25. He is wearing a white button-down shirt and a black tie.
+Character: SHELBY
+Answer: Shelby is described as an "optimistic looking white boy". Therefore, the answer is "White"
+
+Passage: A big room divided into many small cubicles in which telephone operators, wearing headsets, answer 411 calls. In one of the cubicles is LOUISE WILLIAMS, a warm, sympathetic African-American woman in her forties. She is upset. On her workstation is a framed photograph of her twin sons Cedric and Neville (16).
+Character: NEVILLE
+Answer: The passage gives evidence of Neville's race by mentioning that Louise Williams, Neville's mother, is an African-American woman. This implies that Neville is also African-American. Therefore, the answer is "African-American"
+
+Passage: Dr. Ravell comes out of surgery, clearly exhausted. Without his surgical mask he is ruggedly handsome. TWO NURSES follow, attending him like a fighter fresh from the ring: CHLOE, 25, Raven-haired and striking, and JASMINE, 24, an exotic mix of African-American and Asian.
+Character: CHLOE
+Answer: Chloe is 25 years old, raven-haired and is a striking, beautiful woman. This does not provide any information about Chloe's race or ethnicity. Therefore, the answer is "CANNOT ANSWER"
+
+Passage: Billy and the three Thai Inmates stand before the "cell boss," we saw in the yard: KENG. He sharply barks the rules in Thai. Billy's quiet, doesn't like the tone. A few Samurai laugh. As Billy looks for a space to sit, one Samurai gets up...KIAW (30, Thai, body and lips tattooed, wearing shackles). He shouts in Thai at a sleeping Samurai, "Bie!" (move!) then kicks him hard in the ribs to make room for Billy. Then Kiaw looks at Billy and smiles...
+Character: KIAW
+Answer: Kiaw's race is Thai because it states that he is Thai and speaks Thai. The passage also mentions that he has tattoos on his body and lips, which is a common practice in Thai culture. Therefore, the answer is "Thai"

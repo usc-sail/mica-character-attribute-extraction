@@ -1,0 +1,29 @@
+Given a passage from a movie script and a character mentioned in it, find what clothes or type of attire is worn by the character using only the passage text. If they are not wearing anything, answer as NUDE. If you cannot find an answer, write CANNOT ANSWER.
+
+Passage: Pavel exits office, closing the door. Doug gets out the envelope with the money in and writes on it "BUGLER", name and address, attention Henry Whittaker. Doug then puts the envelope back in his jacket pocket and moves to the window.
+Character: DOUG
+Answer: Doug puts the envelope back in his jacket pocket. This indicates that he is wearing a jacket. Therefore, the answer is "Jacket".
+
+Passage: In the fine master bedroom, MISS ELEANOR HAVISHAM sits in front of a mirror. It's hard to see her face beneath the veil, but she's a little older than one might expect for a bride in the last years of the 18th Century. Nevertheless, there's no mistaking the grace and beauty there - nor the discontent and resentment in the eyes of ARTHUR HAVISHAM, the half-brother, sulky and malign.
+Character: ELEANOR HAVISHAM
+Answer:  Eleanor Havisham is a bride in the last years of the 18th Century. This implies that she is wearing a wedding dress. Therefore, the answer is "WEDDING DRESS".
+
+Passage: Nick, Dev, Thom and the Beefy Guy are combing getting distracted by a CHORUS of MEN dressed sans pants. Dev is especially distracted.
+Character: Dev
+Answer: A chorus of men are dressed sans pants. Dev is distracted by them. So, he is not included in the chorus of men. Therefore, the passage does not provide any information about Dev's attire. Therefore, the answer is "CANNOT ANSWER".
+
+Passage: Faith wades into the water then submerges under its icy surface. Emily peels off her dress down to her bra and underwear. She wades into the water with a gasp, her jaw clenched against the cold. Faith surfaces and treads water.
+Character: EMILY
+Answer: Emily peels off her dress down to her bra and underwear before wading into the water. Therefore, the answer is "BRA and UNDERWEAR".
+
+Passage: Harvey has lunch with the "gay establishment": DAVID GOODSTEIN, 58, gold and turquoise jewelry, and Goodstein's protege, RICK STOKES, 45, reserved. Rick can't keep his eyes off naked Scott in the pool.
+Character: Scott
+Answer: Rick cannot keep his eyes off of Scott in the pool because Scott is naked. Therefore, the answer is "NUDE".
+
+Passage: Jimmy Dix leaves the bedroom. Pads barefoot down a hall littered with beer cans, food wrappers. A sleeping guy. Stops at a door, peeks in: all-night poker game in progress. Four bleary-eyed men. Unshaven. Stack of wrinkled money on a card table.
+Character: Jimmy Dix
+Answer: Jimmy is barefoot. The passage does not provide any other information about his attire. Therefore, the answer is "CANNOT ANSWER".
+
+Passage: shoves Gang Banger #1 off of her as Jason returns his attention to her. She grabs a loose brick and FLINGS IT AT HIM, CRACKING HIS HOCKEY MASK, momentarily disorienting him. Rennie sprints away.
+Character: Jason
+Answer: Rennie throws a brick at Jason. The brick cracks his hockey mask, momentarily disorienting him. Therefore, Jason is wearing a hockey mask. Therefore, the answer is "Hockey Mask".

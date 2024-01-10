@@ -1,0 +1,29 @@
+Given a passage from a movie script and a character mentioned in it, find the eye color, eye shape, or any other attributes of the character's eyes. Write your answer as briefly as possible. If you cannot find any attributes of the character's eyes, write CANNOT ANSWER.
+
+Passage: CLAIRE stands before the Core. She is naked. Her skin is pale and beautiful and cold and wet. Her hair hangs in her face, covering her milk-white eyes...
+Character: CLAIRE
+Answer: The passage describes Claire's eyes as "milk-white". Therefore, the answer is "Milk-white".
+
+Passage: GALLY'S face is gaunt, something dark and unhinged just beneath the surface. His left eye clouded over, his right, cold and piercing.
+Character: GALLY
+Answer: Gally's eyes are "clouded over" and "cold and piercing". This suggests that Gally's left eye is not functioning properly and his right eye is intense and intimidating. Therefore, the answer is "Left eye clouded, right eye cold and piercing".
+
+Passage: Julia is paralyzed against the wall. Staring into the dead as-marble eyes of Shepard. He looks her up and down.
+Character: SHEPARD
+Answer: Shepard's eyes are "dead as marble" implies that his eyes are emotionless and unresponsive, which is a characteristic of marble. Therefore, the answer is "dead as marble"
+
+Passage: With the soft HISS of hydraulics, she LOWERS herself down to where her face is very close to that of Data's. Her features are almost angelic, but the silvery glint in her eyes betrays an inner-darkness.
+Character: Data
+Answer: The passage does not describe any attributes of Data's eyes. Therefore, the answer is "CANNOT ANSWER"
+
+Passage: The powerful SHUDDER is felt, amplified in the tank. NADIA shakes awake to see... LELAND is kneeling over her, eyes wide with hunger, deliciously sniffing her body. They both jump with fright and yell in unison.
+Character: LELAND
+Answer: Leland's eyes are wild and hungry. He is kneeling over Nadia with his eyes wide with hunger, deliciously sniffing her body. Therefore, the answer is "Wild, hungry"
+
+Passage: Will walks past some boxes and opens the door There in the doorway stands the startling presence of FATHER SEAMUS, a reedy, older Catholic priest with sunken eyes and ashen skin - the air is foggy Will is taken aback by the man, waits a beat to compose himself WILL
+Character: WILL
+Answer: The passage describes Father Seamus's eyes as sunken. However, the passage does not provide any information about Will's eyes. Therefore, the answer is "CANNOT ANSWER"
+
+Passage: ELEANOR ROOSEVELT, 34, is dictating a letter. Her enormous eyes, liquid and blue, reveal a woman of extraordinary intelligence and depth.
+Character: ELEANOR ROOSEVELT
+Answer: Eleanor Roosevelt's eyes are described as "liquid and blue," which suggests that they are deep and full of emotion. Therefore, the answer is "Liquid and blue".

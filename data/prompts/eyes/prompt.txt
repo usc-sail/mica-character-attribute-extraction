@@ -1,0 +1,29 @@
+Given a passage from a movie script and a character mentioned in it, find the eye color, eye shape, or any other attributes of the character's eyes. Write your answer as briefly as possible. If you cannot find any attributes of the character's eyes, write CANNOT ANSWER.
+
+Passage: CLAIRE stands before the Core. She is naked. Her skin is pale and beautiful and cold and wet. Her hair hangs in her face, covering her milk-white eyes...
+Character: CLAIRE
+Answer: Milk-white.
+
+Passage: GALLY'S face is gaunt, something dark and unhinged just beneath the surface. His left eye clouded over, his right, cold and piercing.
+Character: GALLY
+Answer: Left eye clouded, right eye cold and piercing.
+
+Passage: Julia is paralyzed against the wall. Staring into the dead as-marble eyes of Shepard. He looks her up and down.
+Character: SHEPARD
+Answer: dead as marble
+
+Passage: With the soft HISS of hydraulics, she LOWERS herself down to where her face is very close to that of Data's. Her features are almost angelic, but the silvery glint in her eyes betrays an inner-darkness.
+Character: Data
+Answer: CANNOT ANSWER
+
+Passage: The powerful SHUDDER is felt, amplified in the tank. NADIA shakes awake to see... LELAND is kneeling over her, eyes wide with hunger, deliciously sniffing her body. They both jump with fright and yell in unison.
+Character: LELAND
+Answer: Wild, hungry
+
+Passage: Will walks past some boxes and opens the door There in the doorway stands the startling presence of FATHER SEAMUS, a reedy, older Catholic priest with sunken eyes and ashen skin - the air is foggy Will is taken aback by the man, waits a beat to compose himself WILL
+Character: WILL
+Answer: CANNOT ANSWER
+
+Passage: ELEANOR ROOSEVELT, 34, is dictating a letter. Her enormous eyes, liquid and blue, reveal a woman of extraordinary intelligence and depth.
+Character: ELEANOR ROOSEVELT
+Answer: Liquid and blue.

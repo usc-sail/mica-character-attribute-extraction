@@ -1,0 +1,25 @@
+Given a passage from a movie script and a character mentioned in it, find the quality, tone, pitch, accent, or any other attributes of the character's voice using only the passage text. Write your answer as briefly as possible. If you cannot find any attributes of the character's voice, write CANNOT ANSWER.
+
+Passage: BORIS BALKAN, standing at a state-of-the-art lecturer's desk, is a bulky, imposing figure of a man around 50 years old. His thick gray hair is slicked back to reveal a domed forehead. The eyes beneath it radiate keen intelligence through a pair of heavy hornrims. He speaks in a deep, slow, almost monotonous voice, but with great authority.
+Character: BORIS BALKAN
+Answer: Deep, slow, almost monotonous, with great authority.
+
+Passage: Dewey, this is crazy! Ain't nobody gon' wanna hear music like that. You standin' there, playing as fast as you can, singin' like some kind of. .. punk. DEWEY
+Character: DEWEY
+Answer: Fast-paced, punk-like singing.
+
+Passage: The dealer, the pit boss, and all the players look on as Mike drops ANOTHER BLACK CHIP in the circle with a barely audible, yet deafening, thud.
+Character: Mike
+Answer: CANNOT ANSWER.
+
+Passage: Giulia pedals away, but Luca knows there's more to learn-LUCA (whispering) No no! Keep going! Ask her about the prize money! Maybe that becomes a Vespa! Just ask her!
+Character: LUCA
+Answer: Whispering.
+
+Passage: (softly) Go on in. I'm going to write a note to Katharine and tape it to the door. Go on. Val goes, reluctantly, into
+Character: KATHARINE
+Answer: CANNOT ANSWER
+
+Passage: Rita, aching from a place she thought she buried long ago, shakes her head, NO. Now, Margaret literally has to wrench Lucy away from her father's arms. Lucy bellowing as she pulls her down the hallway. Sam is frozen in incalculable pain.
+Character: Lucy
+Answer: High-pitched, distressed.

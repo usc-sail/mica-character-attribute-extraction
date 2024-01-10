@@ -1,0 +1,25 @@
+Given a passage from a movie script and a character mentioned in it, find the items held by the character with them presently using only the passage text. Write your answer as briefly as possible. If the passage does not explicitly specify any items held by the character, write CANNOT ANSWER. Do not consider the clothes, shoes, or any headgear worn by the character.
+
+Passage: Nick hesitates, then picks it up again. He runs his fingers over the face of the bill and snaps the paper.
+Character: NICK
+Answer: Paper Bill
+
+Passage: Rose comes walking out of the house with groceries. She sets them on the picnic table and heads back into the house. Alvin loads the groceries into the now finished trailer. The back door of the house opens and a big sheet of foam rubber flies out the door followed by Rose. She hauls it over to the trailer and sets it in. She fusses over its arrangement.
+Character: ROSE
+Answer: Groceries, foam rubber.
+
+Passage: Holly, excited, runs over to April, who is busy taking the Stroganoff out of the oven. She wears the same uniform as Holly: black skirt, white shirt, and black bowtie.
+Character: HOLLY
+Answer: CANNOT ANSWER
+
+Passage: Scully has her hand in her coat pocket now. Moving around the table and approaching Cassidy. Removing something which she puts on the desk in front of her. A small vial.
+Character: SCULLY
+Answer: Vial
+
+Passage: Sharon shows in Mr. Miller, the Denver oilman. He's a self- assured, impressive man in his 50's with a western accent, cowboy boots and hat, and a well-cut gabardine suit.
+Character: MILLER
+Answer: CANNOT ANSWER
+
+Passage: RAY unpacking. But fast. Spy-tech pull-down. Three bags on the bed, he's pulling selected -- seemingly innocuous -- items from each of them, as -DUKE (V.O.) ...then two years ago, he walked into a bank in Atlanta. He produced a halfa-million dollar letter of credit and a Dermavale business card... RAY assembling this weird bunch of shit that passed through security into a very sophisticated listening device -HEADPHONES -- A BOOMBOX -- A COLLAPSIBLE MINI-UMBRELLA -THE WIRE LINER OF THE SUITCASE -- HIS PHONE, as -DUKE (V.O.) ...now we've been digging as fast and hard as we can, but so far Dermavale is just a blank. We can't find a vendor, we can't find an insurance company, we can't find one person down there who can tell us what the hell Dermavale was about...
+Character: RAY
+Answer: Headphones, boombox, collapsible mini-umbrella, wire liner of the suitcase, phone.

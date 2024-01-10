@@ -1,0 +1,25 @@
+Given a passage from a movie script and a character mentioned in it, infer the current age of the character using only the passage text. If you cannot infer their age, write CANNOT ANSWER.
+
+Passage: KEYS in the lock. LAUGHTER in the hallway. The door swings open to reveal a drenched Will (29) carrying four sacks of groceries, the bottoms collapsing from the rain. His wife Josephine (28) pushes past him to get the phone.
+Character: WILL
+Answer: 29
+
+Passage: JULIA nods to LITTLE JULIA, standing by the record player, who puts on a '78: "Oh John My Son To Me You Are so Wonderful". It's a 30's ballad - definitely not rock and roll. The room falls quiet, thinking 'what is this shiite'. JULIA re-appears from the kitchen holding a birthday cake, 17 candles on top. She brings it to JOHN. He eyes her before blowing out the candles.
+Character: John
+Answer: 17
+
+Passage: We spot a snippet: "The Girl: Sweet Sixteen and never -- well, once or twice." Fay finishes, rises, switches to Mandarin:
+Character: FAY
+Answer: CANNOT ANSWER
+
+Passage: Hub, stands in the same grief-stricken stance, forty years later: his sorrow and grief still so intense, so crippling, after all those years. Walter's heart breaks in two.
+Character: Hub
+Answer: Over 40
+
+Passage: An adult Puff and his now older father sit on the forest floor and pick bugs off each other and eat them.
+Character: PUFF
+Answer: CANNOT ANSWER
+
+Passage: Bridget sits on her bare mattress. She opens her laptop and writes in google's search bar: "What to do with my life". It autofills in "quiz, at 20, at 35, at 50." She clicks on "at 35."
+Character: Bridget
+Answer: 35

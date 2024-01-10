@@ -1,0 +1,25 @@
+Given a passage from a movie script and a character mentioned in it, find the quality, tone, pitch, accent, or any other attributes of the character's voice using only the passage text. Write your answer as briefly as possible. If you cannot find any attributes of the character's voice, write CANNOT ANSWER.
+
+Passage: BORIS BALKAN, standing at a state-of-the-art lecturer's desk, is a bulky, imposing figure of a man around 50 years old. His thick gray hair is slicked back to reveal a domed forehead. The eyes beneath it radiate keen intelligence through a pair of heavy hornrims. He speaks in a deep, slow, almost monotonous voice, but with great authority.
+Character: BORIS BALKAN
+Answer: Boris Balkan's voice is deep, slow, almost monotonous, but has great authority. Therefore, the answer is "Deep, slow, almost monotonous, with great authority".
+
+Passage: Dewey, this is crazy! Ain't nobody gon' wanna hear music like that. You standin' there, playing as fast as you can, singin' like some kind of. .. punk. DEWEY
+Character: DEWEY
+Answer: Dewey is described as playing "as fast as you can" and singing "like some kind of punk". Therefore, Dewey's voice is fast-paced, singing like a punk. Therefore, the answer is "Fast-paced, punk-like singing".
+
+Passage: The dealer, the pit boss, and all the players look on as Mike drops ANOTHER BLACK CHIP in the circle with a barely audible, yet deafening, thud.
+Character: Mike
+Answer: Mike drops a black chip on the poker table which makes a barely audible, but deafening sound. This sound description is not related to Mike's voice. The passage does not provide any other information about Mike. Therefore, the answer is "CANNOT ANSWER".
+
+Passage: Giulia pedals away, but Luca knows there's more to learn-LUCA (whispering) No no! Keep going! Ask her about the prize money! Maybe that becomes a Vespa! Just ask her!
+Character: LUCA
+Answer: The passage states that Luca is whispering his words to Giulia. This indicates that Luca is speaking in a quiet, hushed tone. Therefore, the answer is "Whispering".
+
+Passage: (softly) Go on in. I'm going to write a note to Katharine and tape it to the door. Go on. Val goes, reluctantly, into
+Character: KATHARINE
+Answer: The passage does not provide any evidence about the attributes of Katharine's voice. Therefore, the answer is "CANNOT ANSWER"
+
+Passage: Rita, aching from a place she thought she buried long ago, shakes her head, NO. Now, Margaret literally has to wrench Lucy away from her father's arms. Lucy bellowing as she pulls her down the hallway. Sam is frozen in incalculable pain.
+Character: Lucy
+Answer: The passage describes Lucy as "bellowing" as she is pulled away from her father. This implies that her voice is high-pitched and distressed. Therefore, the answer is "High-pitched, distressed".

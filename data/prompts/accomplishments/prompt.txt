@@ -1,0 +1,25 @@
+Given a passage from a movie script and a character mentioned in it, find what the character has accomplished or achieved in the past using only the passage text. Include only significant positive achievements such as winning an award, overcoming a challenge, learning a skill, or completing their education. Give an answer as briefly as possible without missing the important facts. If you cannot find any accomplishments, write CANNOT ANSWER.
+
+Passage: DELLA FRYE, 26, crosses the newsroom. Stylish, Meticulouslygroomed, ambitious - she's a successful blogger who recently accepted a position on the Globe's fledgling internet edition. She heads toward Cal's desk... then slows a bit, not wanting to barge in while he's on the phone. We peer over his cubicle wall, as:
+Character: Della Frye
+Answer: Successful blogger; accepted a position on the Globe's fledgling internet edition.
+
+Passage: Rita walks to her minivan alone, in a hurry. She Jumps in and starts the stubborn engine. HELEN ( V , 0 . ) But her dedication had paid off, Marcos was now an honor student and as such, was on a field trip to Washington D.C.,. For the first time since her son was nine, Rita would be early for work. The engine starts and she is on her way.
+Character: RITA
+Answer: Raised her son to be an honor student.
+
+Passage: Chris leaves Rose's room. A door at the end of the hallway is a crack open. Chris slowly walks down the hall, and peers inside. A couple lacrosse trophies and one for ju-jitsu. Jeremy's room. Movement inside. It's Georgina making the bed. The door creaks alerting her of his presence, she turns slowly. Before she sees him he walks quickly back to Rose's room just as she comes
+Character: CHRIS
+Answer: CANNOT ANSWER
+
+Passage: Cruz is best known for her many collaborations with Pedro Almodovar, which began with a small role in LIVE FLESH, followed by a role in the ensemble cast of ALL ABOUT MY MOTHER (awarded the Golden Globe(r) and Oscar(r) for Best Foreign Film), and the lead roles in VOLVER and BROKEN EMBRACES. In addition to her Academy Award(r) nomination for VOLVER, Cruz won a Goya, a European Film Award, shared Best Actress at Cannes, and received nominations for a Golden Globe(r), and BAFTA and SAG Awards.
+Character: CRUZ
+Answer: Won Goya, European Film Award, shared Best Actress at Cannes, Academy Award(r) nomination for VOLVER, Golden Globe(r), BAFTA and SAG Award nominations.
+
+Passage: The truck comes to a stop and two men get out. One is young, early 20's, and even at this hour his step is lively, his face full of warmth. He walks over to Natalie and gives her a kiss. The young man from the opening scene, rRANK FOWLER. The other man leans back against the passenger door. He is in his early 50's. Kind face, good looking, athletic in his day - Frank's father, MATT. He smiles at Natalie. Natalie smiles back.
+Character: MATT
+Answer: CANNOT ANSWER
+
+Passage: Oliver looking at a copy of the local news. We see an article on Zoe. There's a post-it note on it from Jill. 'Isn't this your friend Zoe?! Mum x' 'Local girl Zoe Preece wins modelling contract'. There is a quote: "the kids at school called me fat. I suppose they should see me now." "I was so unhappy the weight just fell off." There is a photo-shopped picture of Zoe, looking much thinner. OLIVER has a bottle of whiskey next to him. He takes a gulp.
+Character: ZOE PREECE
+Answer: Won a modelling contract.

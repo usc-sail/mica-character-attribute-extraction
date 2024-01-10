@@ -1,0 +1,25 @@
+Given a passage from a movie script and a character mentioned in it, infer the attitude, opinion or evaluation of the character which they hold towards something or someone in the passage text. Write your answer as briefly as possible. If you cannot infer the attitude of the character, write CANNOT ANSWER.
+
+Passage: Neo's eyes light up as he steps closer to the screens that seem alive with a constant flow of data.
+Character: Neo
+Answer: Neo's eyes light up when he steps closer to the screens. He is intrigued and excited by the constant flow of data. His attitude becomes interested at what he sees. Therefore, the answer is "Interested".
+
+Passage: Just look for Mr. Pelikas. And be careful. Todd gives Frady a hugely hostile look, but he goes down the hall toward back of house.
+Character: FRADY
+Answer: Todd is hostile to Frady. The passage does not say anything about Frady's reaction to it or provide any evidence of Frady's attitude. Therefore, the answer is "CANNOT ANSWER".
+
+Passage: Steven yanks the knife back out, and gently places it in Billy's tiny hands, wrapping his son's fingers around the wooden handle. The boy grins like he was just handed a new toy. Steven smiles proudly, almost teary-eyed. Together, they stare at the head. It's a real father and son moment.
+Character: BILLY
+Answer: Steven hands his son, Billy, the knife. Steven is proud and teary-eyed. Billy grins and is excited and happy to receive the knife. Therefore, the answer is "Excitement/happiness".
+
+Passage: Tight on JOHN slumped back in a chair. The worst possible news just delivered. Hear tears and visceral moans off. But we just stay on JOHN - still like death.
+Character: JOHN
+Answer: John is slumped back in a chair after receiving the worst possible news, with tears and moans heard off-screen. This indicates that John is overwhelmed with sadness and despair. Therefore, the answer is "Despair".
+
+Passage: Courtney silent. Struck by that. And she wants more, needs to ask Lauren a dozen follow-up questions -But they're wheeling Lauren away, off into the tumult of the busy hospital and -Courtney.
+Character: COURTNEY
+Answer: Courtney is silent and wants to ask Lauren questions. This does not provide any evidence of Courtney's attitude, opinion, or evaluation towards something or someone in the passage text. Therefore, it is not possible to answer the question. Therefore, the answer is "CANNOT ANSWER".
+
+Passage: Merrick stands before the row of smiling ladies on his wall. He surveys them lovingly for a long moment. He is holding in his hand a bundle of evening clothes, the handsome black bow tie lying on the new silk shirt.
+Character: MERRICK
+Answer: Merrick is surveying the ladies on the wall lovingly for a long moment and is holding in his hand a bundle of evening clothes, suggesting he is preparing to go out and meet them. He holds a loving attitude towards them. Therefore, the answer is "Merrick holds a loving attitude towards the ladies on his wall".

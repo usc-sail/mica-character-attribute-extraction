@@ -1,0 +1,25 @@
+Given a passage from a movie script and a character mentioned in it, infer the demeanor, manners, bearing, or outward behavior of the character using only the passage text. Write your answer as briefly as possible. If you cannot infer the demeanor of the character, write CANNOT ANSWER.
+
+Passage: A man toils over a pot of simmering tomato sauce. He is a handsome Italian-American with big brown eyes. He is VICTOR. Victor tastes the sauce he's cooking the way a sommelier tastes wine. Slow and deliberate. He's pleased but subdued. Victor carefully plates some of that fresh pasta with his sauce and takes it into the living room. Sophia looks stressed out. She keeps glancing at what looks like a draft of a magazine article, certain parts have been highlighted. She's in the middle of typing something when Victor approaches with the plate of food.
+Character: Victor
+Answer: Victor is carefully tasting the sauce he is cooking. He is pleased but subdued. He approaches Sophia with the plate of food in a careful manner. This shows that Victor is careful, pleased, and subdued in his outward behavior. Therefore, the answer is "Careful, pleased, subdued".
+
+Passage: As BRIDGE and CASTLE glimmer in the distance, Hagrid emerges from the Forbidden Forest, dragging a fistful of dead FERRETS by the tail. A BIRD appears, circles his head playfully, CHIRP-CHIRP-CHIRPING merrily before it... ... flutters off, pin-wheeling past flowers, into a BIRDBATH, finally coming to rest upon... ... an ANCIENT TREE. It TWITTERS cheerfully, singing its lovely song, when -- THWOCK! -- a branch punts the bird into the air. As feathers fly, the WHOMPING WILLOW resumes its shape.
+Character: HAGRID
+Answer: Hagrid emerges from the Forbidden Forest with a fistful of dead ferrets. Then a bird appears and begins chirping merrily before it flutters off into a birdbath. The bird's cheerful singing and the peaceful scenery of the glimmering Bridge and Castle in the distance all suggest a sense of contentment and peace. This suggests towards Hagrid's calm and content demeanor. Therefore, the answer is "Calm and content".
+
+Passage: Let me out of here! Let me out! There's a deafening SOUND like a thousand bells ringing at once and Miranda covers her ears -- Outside WE HEAR MURMURS, YELLS, INSTRUCTIONS --
+Character: MIRANDA
+Answer: Miranda covers her ears due to a loud sound and hears murmurs, yells, and instructions outside. She begs to be let out and is frightened. Therefore, she has a frightened demeanor. Therefore, the answer is "Frightened".
+
+Passage: Celie, this here Shug Avery. Old friend of the family. Fix up the spare room. Celie seems frozen on the spot.
+Character: SHUG AVERY
+Answer: The passage does not provide any evidence about Shug Avery's demeanor, manners, bearing, or outward behavior. Therefore, the answer is "CANNOT ANSWER"
+
+Passage: Noa is seated at the table with a small donut pillow under her non-ass. The table has been moved over near the dish washer. Her left hand is handcuffed to the handle of it. SONG: Sade: "Kiss of Life" The song plays low from a speaker as Steve stands quietly mouthing along to the words while cutting the foil off a bottle of wine. Noa stares at his back deep in thoughts. Noa's eyes start to take in her surroundings with purpose. Click, to the knives, click, to Steve's cooking. Click, to the back kitchen door and the triple locks. Her eyes clicking everywhere are interrupted by Steve turning around..
+Character: STEVE
+Answer: Steve stands quietly mouthing along to the words of a song while cutting the foil off a bottle of wine. This shows that Steve is in control of his emotions and is able to focus on the task at hand. He has a calm and focused demeanor. Therefore, the answer is "Calm, focused".
+
+Passage: PRINCIPAL RICHARD MERKIN, mid-50's, marches down the hallway, seizing copies of "EXPOSED!" from students' hands. We can see that it is a "homemade" looking newspaper. And there's obviously much ado about it. Christy winks at Ted as she hides the newspaper in her locker.
+Character: CHRISTY
+Answer: Christy winks at Ted and hides the newspaper in her locker. This suggests that she is up to something and is not afraid to be a bit naughty. This shows her mischievous demeanor. Therefore, the answer is "Mischievous".

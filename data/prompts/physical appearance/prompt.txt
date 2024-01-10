@@ -1,0 +1,29 @@
+Given a passage from a movie script and a character mentioned in it, find the explicitly described physical attributes of the character's body using only the passage text. Write your answer as briefly as possible. If you cannot find any physical attributes of the character's body, write CANNOT ANSWER.
+
+Passage: Hans pours the water on the fireplace, putting out the fire. Anna tries to stop him. She falls to the floor, weak.
+Character: ANNA
+Answer: Weak.
+
+Passage: The untouched chicken broth sits on the night stand. Gideon is TALKING in his sleep. Morning light filters through the window shade. The room takes on a brownish tint. Gideon has dark rings under his eyes and looks like he has aged considerably.
+Character: Gideon
+Answer: Dark rings under eyes, aged considerably.
+
+Passage: The archive footage continues, but it is not of the Coronation. David and Wallis visiting the Fuhrer in Germany: Hitler gallantly kissing Mrs Simpson's hand while Goring and the Duke of Windsor beam; David giving the Nazi salute. FREEZE FRAME. The lights come on. For once, Churchill is speechless.
+Character: CHURCHILL
+Answer: CANNOT ANSWER.
+
+Passage: All." Our credits are intercut in the cement blocks as the camera pans across this local tourist attraction. Cut to SINCLAIR STEVENS, the handsome but intense 20-year-old theater manager as he adjusts the final letter of the film's title on the marquee, perched atop a ladder. SINCLAIR is dressed in an obviously rented tuxedo and for a moment seems like any other middle class suburban kid.
+Character: SINCLAIR STEVENS
+Answer: Handsome, intense, 20-year-old.
+
+Passage: In the dingy gas station bathroom, Ben stands in front of a broken mirror, a newly bought hair clipper in his hand. He slowly, methodically, buzzes off his beard.
+Character: BEN
+Answer: Ben has a beard.
+
+Passage: We see Rowley jot something in his notebook. We can read the words "sash no good" at the bottom of a list that includes "no pics mommy", "long hair ok skateboard" and "butterflies = death".
+Character: ROWLEY
+Answer: CANNOT ANSWER
+
+Passage: Dazed SANDRA crawls across the carpet, determined, rigorous, vision-blurred, face bloodied. She pushes one of the patio-doors open, just slightly - too late - GARY grabs a handful of hair and hauls her back. Sandra's LEFT HAND, reaching out, clawing for the door-frame. She's dragged back until SLAM. GARY's steel cap boot rages down. A sickening crunch. Her hand under, his boot. Crushing it. An agonized howl. Silence.
+Character: Sandra
+Answer: Bloodied face and hand.
