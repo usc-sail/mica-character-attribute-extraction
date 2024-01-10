@@ -8,7 +8,9 @@ narrative text and it describes some attribute, of type defined by *attribute-ty
 For example, consider the following passage.
 
 ```
-The Sports Commentator is at the airport and about to interview the world heavyweight boxing champion, Apollo Creed. Creed is twenty-eight years old. He is a tall, smooth-muscled black man with barely a scar on his light coffee-colored face.
+The Sports Commentator is at the airport and about to interview the world heavyweight boxing champion, Apollo Creed. 
+Creed is twenty-eight years old. He is a tall, smooth-muscled black man 
+with barely a scar on his light coffee-colored face.
 ```
 
 Assume **C** = "Apollo Creed" and **P** is the whole passage.
@@ -73,5 +75,8 @@ This column is hidden from the annotator.
 ### Citation
 
 ```
-Baruah, Sabyasachee and Narayanan, Shrikanth, "Character Attribute Extraction from Movie Scripts using LLMs" ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), COEX, Seoul, Korea, pp. xx, doi: xx/xx
+Baruah, Sabyasachee and Narayanan, Shrikanth, 
+"Character Attribute Extraction from Movie Scripts using LLMs" 
+ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 
+COEX, Seoul, Korea, pp. xx, doi: xx/xx
 ```
