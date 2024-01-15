@@ -93,8 +93,7 @@ def prompt_sample(passage, character):
 def prompt_attribute_types(_):
     n = FLAGS.n
     openai.api_key = os.getenv("OPENAI_API_KEY")
-    openai.organization = "org-xPjDKPQ58le6x8A7CE13e8O6"
-
+    openai.organization = os.getenv("OPENAI_ORGANIZATION_KEY")
     with open(input_file) as fr:
         descs = json.load(fr)
     sampled_descs = random.sample(descs, n) if n < len(descs) else descs

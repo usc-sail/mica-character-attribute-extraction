@@ -52,7 +52,7 @@ def prompt_sample(prompt, max_tokens=256):
 def zero_shot_annot(_):
     # openai
     openai.api_key = os.getenv("OPENAI_API_KEY")
-    openai.organization = "org-xPjDKPQ58le6x8A7CE13e8O6"
+    openai.organization = os.getenv("OPENAI_ORGANIZATION_KEY")
     encoding = tiktoken.encoding_for_model("text-davinci-003")
 
     # read samples
